@@ -1,5 +1,4 @@
 # Git-usage
-===========
 
 ### Getting & Creating Projects
 
