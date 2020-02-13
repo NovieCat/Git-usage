@@ -1,9 +1,3 @@
-<style>
-table th:first-of-type {
-	width: 200px;
-}
-</style>
-
 # Git-usage
 
 ### Getting & Creating Projects
@@ -22,6 +16,11 @@ table th:first-of-type {
 | git commit -m "[message]" | commit changes |
 | git rm -r [filename] | remove a file or folder |
 
+<style>
+table th:first-of-type {
+    width: 100px;
+}
+</style>
 ### Branching & Merging
 
 | Command | Description |
