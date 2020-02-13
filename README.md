@@ -23,6 +23,7 @@
 | git branch | list all local branches(the asterisk denotes the current branch) |
 | git branch -a | list all local and remote branches |
 | git branch [branch name] | create a new local branch |
+| git checkout [branch name] | switch to branch |
 | git checkout -b [branch name] | create a new local branch and switch to it |
 | git checkout -b [branch1] origin/[branch2] | clone a remote branch2 and switch to branch1(local branch1 tracks remote branch2) |
 | git branch -d [branch name] | delete a local branch |
@@ -34,4 +35,3 @@
 | git push origin HEAD:[branch2] | push current branch to upstream branch2 on the remote(branch2 does not match your current branch) |
 | git push origin [branch name] | push current branch to the branch of the same name on the remote |
 | git pull | update local reposiotory to the newest commit |
-
